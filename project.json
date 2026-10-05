@@ -1,0 +1,21 @@
+{
+  "id": 202,
+  "title": "Urban Air Station Threshold Alerts",
+  "repository_slug": "urban-air-station-threshold-alerts",
+  "category": "Environment",
+  "platform": "Arduino MKR WAN 1310",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 24,
+  "connectivity": "LTE-M",
+  "components": [
+    "CO2 sensor",
+    "turbidity sensor",
+    "solar panel"
+  ],
+  "scope": "Build a environment prototype that uses CO2 sensor, turbidity sensor, solar panel to notify users when measurements exceed limits. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Threshold Alerts demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/urban-air-station-threshold-alerts/urban-air-station-threshold-alerts.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
